@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "author": "Lucas Arieta <lucas@arieta.io>",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "~20",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "~5.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "tslib": "^2.8.0"
+  }
+}
